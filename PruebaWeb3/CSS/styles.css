@@ -14,8 +14,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -76,10 +77,10 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.cover-img:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    filter: brightness(.5);
-}
+    .cover-img:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        filter: brightness(.5);
+    }
 
 .text-image {
     color: var(--purewhite);
@@ -87,10 +88,10 @@ body {
     opacity: 0;
 }
 
-.text-image h2 {
-    font-size: 28px;
-    text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
-}
+    .text-image h2 {
+        font-size: 28px;
+        text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
+    }
 
 .img-container:hover .text-image {
     transition: .5s ease;
@@ -149,7 +150,6 @@ a:link {
 
 .carousel {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    
 }
 
 .title-projects {
@@ -194,21 +194,37 @@ a:link {
 /*FOOTER*/
 .footer-container {
     background-color: var(--body--bg--white);
-    margin: 30px;
+    padding:15px;
     display: flex;
-    
+    justify-content: space-evenly;
 }
 
 .text-footer-container {
     font-size: 18px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-top: 260px;
+    margin-top: 290px;
+}
+
+.footer-map-container {
+    display: block;
+    margin-top:39px;
 }
 
 iframe {
-    height:240px;
-    width: 400px;
-    margin-left: 800px;
-    margin-top: 40px;
+    height: 240px;
+    width: 350px;
+}
+
+.footer-icons-container {
+    gap: 15px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+    margin-left: 105px;
+}
+
+.footer-icon-container {
+    height: 25px;
+    width: 25px;
 }
