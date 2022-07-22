@@ -34,6 +34,7 @@ body {
 .background-navbar-green {
     background-color: var(--navbar--bg--green);
 }
+
 /*NAVBAR ITEM*/
 
 .navbar-nav li {
@@ -190,6 +191,10 @@ a:link {
     border-radius: 3px;
     display: inline-block;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+a:visited {
+    color: rgba(0, 0, 0, 0.3);
 }
 /*FOOTER*/
 .footer-container {

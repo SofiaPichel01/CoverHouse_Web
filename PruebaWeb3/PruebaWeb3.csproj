@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\contact.css" />
     <Content Include="CSS\profile.css" />
+    <Content Include="HTML\contact.html" />
     <Content Include="HTML\index.html" />
     <Content Include="CSS\styles.css" />
     <Content Include="HTML\profile.html" />
