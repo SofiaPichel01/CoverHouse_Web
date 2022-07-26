@@ -78,10 +78,10 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-    .cover-img:hover {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        filter: brightness(.5);
-    }
+.cover-img:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    filter: brightness(.5);
+}
 
 .text-image {
     color: var(--purewhite);
@@ -89,10 +89,10 @@ body {
     opacity: 0;
 }
 
-    .text-image h2 {
-        font-size: 28px;
-        text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
-    }
+.text-image h2 {
+    font-size: 28px;
+    text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
+}
 
 .img-container:hover .text-image {
     transition: .5s ease;
@@ -100,7 +100,6 @@ body {
 }
 
 a:link {
-    color: var(--purewhite);
     text-decoration: none;
 }
 
@@ -199,7 +198,7 @@ a:visited {
 /*FOOTER*/
 .footer-container {
     background-color: var(--body--bg--white);
-    padding:15px;
+    padding: 15px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -213,7 +212,7 @@ a:visited {
 
 .footer-map-container {
     display: block;
-    margin-top:39px;
+    margin-top: 39px;
 }
 
 iframe {
