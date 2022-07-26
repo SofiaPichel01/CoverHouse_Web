@@ -4,7 +4,7 @@ html,
 body {
     position: relative;
     min-height: 100vh;
-    background-color: #E7F0E5;
+    background-color: #ABC4AB;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +16,8 @@ body {
 .form-structor {
     background-image: url("../IMG/login-kitchenn.png");
     border-radius: 15px;
-    height: 550px;
-    width: 350px;
+    height: 590px;
+    width: 400px;
     position: relative;
     overflow: hidden;
 }
