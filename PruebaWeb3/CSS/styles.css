@@ -33,6 +33,11 @@ body {
 
 .background-navbar-green {
     background-color: var(--navbar--bg--green);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
 }
 
 /*NAVBAR ITEM*/
@@ -45,6 +50,9 @@ body {
         font-size: 17px;
     }
 
+a.nav-link {
+    color: #000000 !important;
+}
 /*DROPDOWN*/
 .dropdown-menu {
     background-color: var(--navbar--dropdown--bg--lightergreen);
@@ -62,8 +70,8 @@ body {
     align-content: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
     position: relative;
     display: flex;
     justify-content: center;
