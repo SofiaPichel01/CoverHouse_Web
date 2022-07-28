@@ -75,6 +75,7 @@
     <Content Include="HTML\index.html" />
     <Content Include="CSS\styles.css" />
     <Content Include="HTML\profile.html" />
+    <Content Include="JS%282%29\index.js" />
     <Content Include="JS%282%29\profile.js" />
     <Content Include="Web.config" />
   </ItemGroup>

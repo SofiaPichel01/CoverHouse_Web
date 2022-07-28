@@ -86,10 +86,10 @@ a.nav-link {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.cover-img:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    filter: brightness(.5);
-}
+    .cover-img:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        filter: brightness(.5);
+    }
 
 .text-image {
     color: var(--purewhite);
@@ -97,10 +97,10 @@ a.nav-link {
     opacity: 0;
 }
 
-.text-image h2 {
-    font-size: 28px;
-    text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
-}
+    .text-image h2 {
+        font-size: 28px;
+        text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
+    }
 
 .img-container:hover .text-image {
     transition: .5s ease;
@@ -115,29 +115,27 @@ a:link {
 
 .testimony-container {
     background-color: var(--container--testimony--lightgreen);
-    display: flex;
     align-content: center;
     margin-right: auto;
     margin-left: auto;
-    gap: 50px;
+    gap: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 8rem;
 }
 
 .text-testimony-container {
-    margin-left: 200px;
-    margin-right: 150px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    width:100%;
+    max-width: 600px;
     align-items: center;
     font-size: 16px;
     text-shadow: 2px 1px 5px rgba(145, 150, 150, 0.18);
 }
 
 .img-testimony-container {
-    width: 550px;
-    height: 500px;
-    margin-right: 400px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    width: 100%;
+    max-width: 320px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
@@ -177,6 +175,10 @@ a:link {
 .consulta-container {
     background-color: var(--container--testimony--lightgreen);
     padding: 4rem 0;
+    
+    align-items: center;
+    
+    
 }
 
 .title-consulta-container {
@@ -186,7 +188,9 @@ a:link {
 }
 
 .text-consulta-container {
-    margin: 5px 550px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
     text-shadow: 2px 1px 5px rgba(145, 150, 150, 0.18);
 }
 
@@ -239,4 +243,12 @@ iframe {
 .footer-icon-container {
     height: 25px;
     width: 25px;
+}
+
+@media screen and (max-width : 1050px) {
+
+    .testimony-container {
+        flex-direction: column;
+        gap:4rem;
+    }
 }

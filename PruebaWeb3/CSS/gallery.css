@@ -77,6 +77,7 @@ h1 {
     text-shadow: 2px 1px 15px rgba(145, 150, 150, 0.18);
 }
 
+
 .card {
     position: relative;
     display: block;
@@ -86,6 +87,11 @@ h1 {
     text-decoration: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+    .card:hover {
+        transform: translate(+25%, +25%) scale(1); 
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
 
 .card__image {
     width: 100%;
